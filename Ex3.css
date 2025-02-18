@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    margin:220px auto;
+    align-items: center;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    background-color: #2ecc71;
+    color: white;
+    width: 21%;
+    height: 70px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    background-color: #2ecc71;
+    color: white;
+    width: 21%;
+    height: 70px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+#num5{
+    width: 45%;
+}
